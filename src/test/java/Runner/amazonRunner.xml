@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Test Runner">
+    <test name="Test Runner">
+        <parameter name="driverName" value="chrome"></parameter>
+        <parameter name="name" value="EC2 Test Configuration"></parameter>
+        <parameter name="Includes" value="Includes 5 EC2 Instances"></parameter>
+        <classes>
+            <class name="Tests.Amazon.com.TestPage"></class>
+        </classes>
+    </test>
+</suite>
