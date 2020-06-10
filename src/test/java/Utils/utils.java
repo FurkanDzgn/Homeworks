@@ -11,6 +11,7 @@ public class utils {
         for(String id:ids){
             if(!id.equals(parentId)){
                 driver.switchTo().window(id);
+                //jhgghjhghgj
             }
         }
 
